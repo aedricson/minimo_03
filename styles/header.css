@@ -1,0 +1,18 @@
+.header {
+  padding: 0 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 40px;
+}
+
+.header__actions {
+  margin-top: 60px;
+}
+
+.header__action {
+  width: 100%;
+}

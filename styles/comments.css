@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+.comments__count {
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: #b1b1b1;
+  text-transform: uppercase;
+}
+
+.comments__content {
+  margin: 41px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.comments__social {
+  margin: 38px 0 0;
+  text-align: right;
+}
+
+.comments__connect {
+  padding-right: 20px;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: #b1b1b1;
+  text-transform: uppercase;
+}
+
+.comments__social-link {
+  margin-left: 16px;
+  text-decoration: none;
+}

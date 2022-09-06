@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf');
+}
+
+.aside {
+  position: sticky;
+  top: 10px;
+  margin-top: 100px;
+  height: 100%;
+}
+
+.aside__about {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  font-family: 'Playfair';
+  color: #626262;
+}
+
+.aside__title {
+  margin: 30px 0 0;
+  font-size: 24px;
+}
+
+.aside__article {
+  margin: 0;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.aside__social {
+  display: flex;
+  gap: 16px;
+}
+
+.aside__social-link {
+  text-decoration: none;
+}
+
+.aside__content-title {
+  margin: 54px 0 0;
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  color: #b1b1b1;
+  text-transform: uppercase;
+}
+
+.aside__list {
+  margin: 34px 0 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.aside__list-link {
+  text-decoration: none;
+}
+
+.aside__list-item {
+  font-family: 'Playfair';
+  font-size: 16px;
+  color: #626262;
+}
+
+.aside__list-comments-left {
+  display: block;
+  margin: 16px 0 0;
+  padding: 0 0 30px 22px;
+  font-family: 'Ubuntu';
+  font-size: 12px;
+  color: #b1b1b1;
+  text-transform: uppercase;
+}

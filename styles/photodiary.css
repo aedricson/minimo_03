@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Playfair-Black';
+  src: url('../fonts/Playfair_Display/PlayfairDisplay-Black.ttf');
+}
+
+.photodiary__name, .photodiary__comment {
+  margin: 0;
+  font-family: 'Ubuntu';
+  font-weight: light;
+  text-transform: uppercase;
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
+.photodiary__important {
+  font-family: 'Playfair-Black';
+}
+
+.photodiary__title, .photodiary__content {
+  font-family: 'Playfair';
+  color: #626262;
+}
+
+.photodiary__title {
+  margin: 30px 0 0;
+  font-size: 30px;
+}
+
+.photodiary__content {
+  margin: 40px 0 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.photodiary__comment {
+  display: inline-block;
+  text-decoration: none;
+  margin: 50px 0 0;
+}
+
+@media (max-width: 768px) {
+  .photodiary__title {
+    font-size: 24px;
+  }
+
+  .photodiary__content {
+    font-size: 12px;
+  }
+}
